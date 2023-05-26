@@ -1,7 +1,7 @@
-#Employee Performance Prediction
+# Employee Performance Prediction
 This repository contains code and resources for predicting employee performance based on various factors. The goal is to develop a model that can accurately predict the performance level of an employee, which can help organizations make informed decisions regarding promotions, training, and other performance-related initiatives.
 
-#Table of Contents
+# Table of Contents
 1. Introduction
 2. Dataset
 3. Model
