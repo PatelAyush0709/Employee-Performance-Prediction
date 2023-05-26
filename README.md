@@ -40,5 +40,5 @@ Replace the sample dataset in the 'Data' directory with your own dataset. Ensure
 Run the main script to train the model and evaluate its performance:
 
 code: 
-###--> python main.py
+### --> python main.py
 Once the model is trained, you can use it to make predictions on new data by modifying the predict.py script.
