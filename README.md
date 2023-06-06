@@ -46,15 +46,13 @@ Once the model is trained, you can use it to make predictions on new data by mod
 
 
 ### App Screenshots
-![app ss1](App Screenshots/![app ss1](https://github.com/PatelAyush0709/Employee-Performance-Prediction/assets/124557728/094dc4eb-2de1-417f-9f38-131684981641))
+![app ss1](https://github.com/PatelAyush0709/Employee-Performance-Prediction/assets/124557728/094dc4eb-2de1-417f-9f38-131684981641)
 
 
-
-![app ss2](App Screenshots/![app ss2](https://github.com/PatelAyush0709/Employee-Performance-Prediction/assets/124557728/3ca55741-c50f-426d-b3dc-01a1ffd1c551))
-
+![app ss2](https://github.com/PatelAyush0709/Employee-Performance-Prediction/assets/124557728/3ca55741-c50f-426d-b3dc-01a1ffd1c551)
 
 
-![app ss3](App Screenshots/![app ss3](https://github.com/PatelAyush0709/Employee-Performance-Prediction/assets/124557728/fcf913db-44cd-4044-a99c-4500de38cb3f))
+![app ss3](https://github.com/PatelAyush0709/Employee-Performance-Prediction/assets/124557728/fcf913db-44cd-4044-a99c-4500de38cb3f)
 
 
-![app ss3](App Screenshots/![app ss4 output](https://github.com/PatelAyush0709/Employee-Performance-Prediction/assets/124557728/47d80961-90c4-4c0a-a9eb-52a94a72a061))
+![app ss4 output](https://github.com/PatelAyush0709/Employee-Performance-Prediction/assets/124557728/47d80961-90c4-4c0a-a9eb-52a94a72a061)
