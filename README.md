@@ -57,6 +57,3 @@ Once the model is trained, you can use it to make predictions on new data by mod
 
 
 ![app ss3](App Screenshots/app ss4 output.png)
-=======
-Once the model is trained, you can use it to make predictions on new data by modifying the main.py script.
->>>>>>> c05f7bba74fe42bf9890af1368861c9773ab4668
