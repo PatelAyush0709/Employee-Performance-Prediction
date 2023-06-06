@@ -41,8 +41,7 @@ Run the main script to train the model and evaluate its performance:
 
 code: 
 ### --> python main.py
-<<<<<<< HEAD
-Once the model is trained, you can use it to make predictions on new data by modifying the predict.py script.
+Once the model is trained, you can use it to make predictions on new data by modifying the main.py script.
 
 
 ### App Screenshots
