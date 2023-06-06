@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-class Preprocessing():
+class Preprocessing:
     def __init__(self):
         self.unique_values_ret = {}
         self.encode_dict = []
@@ -12,6 +12,7 @@ class Preprocessing():
     # Reading data
     def read_data(self):
         return pd.read_csv('../Data/EmployeeData.csv')
+
 
     # covert values into lower
     def convert_to_lower(self, data, cols):

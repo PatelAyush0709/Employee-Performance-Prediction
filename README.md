@@ -42,3 +42,17 @@ Run the main script to train the model and evaluate its performance:
 code: 
 ### --> python main.py
 Once the model is trained, you can use it to make predictions on new data by modifying the predict.py script.
+
+
+### App Screenshots
+![app ss1](App Screenshots/app ss1.png)
+
+
+
+![app ss2](App Screenshots/app ss2.png)
+
+
+![app ss3](App Screenshots/app ss3.png)
+
+
+![app ss3](App Screenshots/app ss4 output.png)

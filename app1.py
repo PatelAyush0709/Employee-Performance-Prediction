@@ -1,3 +1,5 @@
+from typing import List
+
 import pickle
 
 from flask import Flask, render_template, request, redirect
@@ -18,6 +20,8 @@ skills_department = {
                     'mobile': {'Android', 'iOS', 'Flutter', 'ReactNative'},
                     'python & ml': {'Python', 'MLModels', 'DLModels', 'TensorFlow', 'MSSQL', 'Flask', 'Django', 'Pytorch', 'Postgresql'}
                     }
+
+# whenever you run the main file in model.pkl file this below dictionary should be changed hence copy the dictionary from terminal and paste it here
 
 dictionary1 = {
                 '.netcoreframework': 0, 'datamodelling': 1, 'mlmodels': 2, 'asp.net': 3, 'bigdata': 4, 'pytorch': 5,
@@ -55,6 +59,7 @@ def page1():
         # get values of job tenure
         job_tenure = int(result.get('Job_tenure'))
         new_list_one[8] = job_tenure
+
 
         return redirect("page2")
     return render_template('design.html')
@@ -117,7 +122,7 @@ def page2():
         new_list_one[2] = assume
 
         # get values of technical skills
-        technical_skills = result.get('Technical Skills')
+        technical_skills = result.getlist('Technical Skills')
         technical_skills1 = [value.lower() for value in technical_skills]
         # inp_list = [skill for skill in technical_skills.split(',')]
 
@@ -133,7 +138,7 @@ def page2():
         while k:
             if k == 22:
                 break
-            new_list_one[k] = 0
+            new_list_one[k] = -1
             k = k + 1
 
         # getting values of department in numeric form according to label encoding in preprocessing file
@@ -175,6 +180,9 @@ def page3():
         # get values of peer feedback
         peer_feedback = int(result.get('Peer_Feedback'))
         new_list_one[9] = peer_feedback
+
+        # print the final list of values
+        print(new_list_one)
 
         # import model pickle file
         file = open('pickle/model.pkl', 'rb')

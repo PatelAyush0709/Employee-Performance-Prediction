@@ -60,6 +60,9 @@ class Model:
         pkl_file.close()
         print('---> Model is saved in Pickle File and Now its Ready to Use')
 
+
+
+    # take User Input
     def predict_real(self, tech_dict, encode_dict):
         # create an empty list
         r_data = []

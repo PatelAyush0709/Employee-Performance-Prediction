@@ -45,10 +45,10 @@ class MainClass:
         modelobj.result()
 
         # now make a pickle file of our mode named as model.pkl
-        modelobj.pickle_file()
+        # modelobj.pickle_file()
 
         # Take user input for prediction
-        modelobj.predict_real(tech_dict=tech_dict, encode_dict=encode_dict)
+        # modelobj.predict_real(tech_dict=tech_dict, encode_dict=encode_dict)
 
 
 
